@@ -14,26 +14,24 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test.png" translatesAutoresizingMaskIntoConstraints="NO" id="bV6-fz-iMs">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test.png" translatesAutoresizingMaskIntoConstraints="NO" id="UEN-5Y-pKD">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="1280"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.47585102769999998" green="1" blue="0.011475363779999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="bV6-fz-iMs" secondAttribute="bottom" id="RK9-qz-uCo"/>
-                            <constraint firstAttribute="trailing" secondItem="bV6-fz-iMs" secondAttribute="trailing" id="SHB-j1-pa2"/>
-                            <constraint firstItem="bV6-fz-iMs" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="X91-hv-nFi"/>
-                            <constraint firstItem="bV6-fz-iMs" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="y6p-Ep-1Z6"/>
+                            <constraint firstItem="UEN-5Y-pKD" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Qcz-hO-C4f"/>
+                            <constraint firstItem="UEN-5Y-pKD" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="u57-KB-27g"/>
+                            <constraint firstAttribute="trailing" secondItem="UEN-5Y-pKD" secondAttribute="trailing" id="urZ-qi-DqP"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.5" y="374.5"/>
+            <point key="canvasLocation" x="52" y="374"/>
         </scene>
     </scenes>
     <resources>

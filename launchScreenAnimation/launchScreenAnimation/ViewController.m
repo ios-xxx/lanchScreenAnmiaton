@@ -23,13 +23,13 @@
     //这一步是获取上次网络请求下来的图片，如果存在就展示该图片，如果不存在就展示本地保存的名为test的图片
     NSMutableData * data = [[NSUserDefaults standardUserDefaults]objectForKey:@"imageu"];
     if (data.length>0) {
-        _ImageView.image = [UIImage imageWithData:data];
+      //  _ImageView.image = [UIImage imageWithData:data];
     }else{
         
-        _ImageView.image = [UIImage imageNamed:@"Test"];
+        _ImageView.image = [UIImage imageNamed:@"test"];
     }
     
-    
+    _ImageView.image = [UIImage imageNamed:@"test"];
     //下面这段代码，是调用AFN下载文件的方法，异步
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];

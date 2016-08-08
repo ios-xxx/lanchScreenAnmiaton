@@ -16,8 +16,8 @@
 		898AF9C81D5876A600AAD8B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898AF9C61D5876A600AAD8B2 /* LaunchScreen.storyboard */; };
 		898AF9D31D5876A600AAD8B2 /* launchScreenAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 898AF9D21D5876A600AAD8B2 /* launchScreenAnimationTests.m */; };
 		898AF9DE1D5876A600AAD8B2 /* launchScreenAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 898AF9DD1D5876A600AAD8B2 /* launchScreenAnimationUITests.m */; };
-		898AF9EC1D5876CD00AAD8B2 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AF9EB1D5876CD00AAD8B2 /* test.png */; };
 		898AF9EF1D587EFB00AAD8B2 /* BBLaunchAdMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 898AF9EE1D587EFB00AAD8B2 /* BBLaunchAdMonitor.m */; };
+		898AF9F31D5885AA00AAD8B2 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 898AF9F21D5885AA00AAD8B2 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +55,9 @@
 		898AF9D91D5876A600AAD8B2 /* launchScreenAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = launchScreenAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		898AF9DD1D5876A600AAD8B2 /* launchScreenAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = launchScreenAnimationUITests.m; sourceTree = "<group>"; };
 		898AF9DF1D5876A600AAD8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		898AF9EB1D5876CD00AAD8B2 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		898AF9ED1D587EFB00AAD8B2 /* BBLaunchAdMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBLaunchAdMonitor.h; sourceTree = "<group>"; };
 		898AF9EE1D587EFB00AAD8B2 /* BBLaunchAdMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBLaunchAdMonitor.m; sourceTree = "<group>"; };
+		898AF9F21D5885AA00AAD8B2 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		8D0C8E841EFB4E124ACC50EC /* libPods-launchScreenAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-launchScreenAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFCC55A0C997F2038BD2271 /* Pods-launchScreenAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-launchScreenAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-launchScreenAnimation/Pods-launchScreenAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,8 +138,8 @@
 				898AF9EE1D587EFB00AAD8B2 /* BBLaunchAdMonitor.m */,
 				898AF9C11D5876A600AAD8B2 /* Main.storyboard */,
 				898AF9C41D5876A600AAD8B2 /* Assets.xcassets */,
-				898AF9EB1D5876CD00AAD8B2 /* test.png */,
 				898AF9C61D5876A600AAD8B2 /* LaunchScreen.storyboard */,
+				898AF9F21D5885AA00AAD8B2 /* test.png */,
 				898AF9C91D5876A600AAD8B2 /* Info.plist */,
 				898AF9B81D5876A600AAD8B2 /* Supporting Files */,
 			);
@@ -281,7 +281,7 @@
 				898AF9C81D5876A600AAD8B2 /* LaunchScreen.storyboard in Resources */,
 				898AF9C51D5876A600AAD8B2 /* Assets.xcassets in Resources */,
 				898AF9C31D5876A600AAD8B2 /* Main.storyboard in Resources */,
-				898AF9EC1D5876CD00AAD8B2 /* test.png in Resources */,
+				898AF9F31D5885AA00AAD8B2 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
